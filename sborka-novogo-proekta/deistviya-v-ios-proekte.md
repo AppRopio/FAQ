@@ -14,7 +14,7 @@
 
   * [ ] Подключить пакет иконок \(полный пакет иконок можно скачать [отсюда](/Images.zip)\)
 
-* [ ] Добавить [LinkerPleaseInclude.cs](/sborka-novogo-proekta/deistviya-v-ios-proekte/LinkerPleaseInclude.md)
+* [ ] Добавить в проект [LinkerPleaseInclude.cs](/sborka-novogo-proekta/deistviya-v-ios-proekte/linkerpleaseinclude.md)
 
 * [ ] Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта![](/sborka-novogo-proekta/deistviya-v-ios-proekte/add mtouch arguments.png)
 
