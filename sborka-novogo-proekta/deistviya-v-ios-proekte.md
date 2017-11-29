@@ -16,13 +16,13 @@
 
 * [ ] Добавить [LinkerPleaseInclude.cs](/sborka-novogo-proekta/deistviya-v-ios-proekte/LinkerPleaseInclude.md)
 
-* [ ] Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта \(подробнее [здесь](/sborka-novogo-proekta/deistviya-v-ios-proekte/dobavlenie-argumentov-mtouch.md)\)
+* [ ] Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта \([подробнее](/sborka-novogo-proekta/deistviya-v-ios-proekte/add mtouch arguments.png)\)
 
 * [ ] Изменить `AppDelegate` \(наследовать от `ARApplicationDelegate` и переопределить методы `CreateSetup` и `CreatePresenter` \)
 
 * [ ] Добавить в проект постзагрузочный индикатор \([loader.html](/sborka-novogo-proekta/deistviya-v-ios-proekte/loader.html) со свойством `BuildAction` установленным в `BundleResource` \)
 
-* [ ] Подключить иконки приложения для отображения на рабочем столе и в системе и загрузочный экран \(`LaunchScreen.xib` с картинкой, добавленной через Image Set\)
+* [ ] Подключить в `Assets.xcassets` иконки приложения для отображения на рабочем столе и в системе и загрузочный экран \(`LaunchScreen.xib` с картинкой, [добавленной в Assets через Image Set](/sborka-novogo-proekta/deistviya-v-ios-proekte/add image set.png)\)
 
 * [ ] Проверить сборку и запуск проекта на симуляторе
 
