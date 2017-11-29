@@ -10,5 +10,6 @@
   * [Список пакетов](sborka-novogo-proekta/spisok-paketov.md)
   * [Запрос лицензии и идентификатора компании](sborka-novogo-proekta/zapros-litsenzii.md)
 * [Доработка существующего проекта](dorabotka-suschestvuyuschego-proekta.md)
+  * [Работа с темой проекта](dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
 * [Перечень библиотек модулей](perechen-bibliotek-modulei.md)
 
