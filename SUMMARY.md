@@ -13,5 +13,7 @@
   * [Работа с темой проекта](dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
   * [Разработка плагина](dorabotka-suschestvuyuschego-proekta/razrabotka-plagina.md)
   * [Разработка ядра](dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md)
+  * [Разработка экранов](dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
+  * [Работа с навигацией](dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
 * [Перечень библиотек модулей](perechen-bibliotek-modulei.md)
 

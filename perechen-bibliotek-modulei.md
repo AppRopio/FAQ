@@ -1,4 +1,14 @@
-# Перечень библиотек модулей 
+# Перечень библиотек модулей
+
+## Базовые
+
+| Библиотеки | Настройки для библиотеки |
+| :--- | :--- |
+| AppRopio.Models.Base |  |
+| AppRopio.Base.API |  |
+| AppRopio.Base.Core | Configs/App.json |
+| AppRopio.Base.iOS | ThemeConfigs/App.json |
+| AppRopio.Base.Droid |  |
 
 ## Авторизация
 
@@ -59,16 +69,6 @@
 | AppRopio.Base.Settings.Core | Configs/Settings.json |
 | AppRopio.Base.Settings.iOS | ThemeConfigs/Settings.json |
 | AppRopio.Base.Settings.Droid |  |
-
-## Ядро
-
-| Библиотеки | Настройки для библиотеки |
-| :--- | :--- |
-| AppRopio.Models.Base |  |
-| AppRopio.Base.API |  |
-| AppRopio.Base.Core | Configs/App.json |
-| AppRopio.Base.iOS | ThemeConfigs/App.json |
-| AppRopio.Base.Droid |  |
 
 ## Корзина
 
