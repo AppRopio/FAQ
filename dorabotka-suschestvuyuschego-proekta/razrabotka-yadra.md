@@ -22,6 +22,11 @@ public class App : AppRopio.***.Navigation.Core.App
 Сейчас необходимо создать обработчик, который будет являться точкой входа для модуля навигации. Этот обработчик называется `RouterSubscriber`
 
 ```
+using System;
+using AppRopio.Base.Core.Models.Bundle;
+using AppRopio.Base.Core.Models.Navigation;
+using AppRopio.Base.Core.Services.Router;
+
 namespace ProjectName.Core.Services.Implementations
 {
     public class RouterSubscriber : AppRopio.Base.Core.RouterSubsriber
