@@ -19,26 +19,26 @@ public class App : AppRopio.***.Navigation.Core.App
 }
 ```
 
-Сейчас необходимо создать обработчик, который будет являться точкой входа для модуля навигации. Этот обработчик называется `RouterSubscriber` 
+Сейчас необходимо создать обработчик, который будет являться точкой входа для модуля навигации. Этот обработчик называется `RouterSubscriber`
 
 ```
-namespace ProjectName.Core.Services
+namespace ProjectName.Core.Services.Implementations
 {
-	public class RouterSubscriber : RouterSubsriber
-	{
-		public override bool CanNavigatedTo(string type, BaseBundle bundle = null)
-		{
-			var vm = LookupService.Resolve<IDcActivationViewModel>();
-			ShowViewModel(vm, new BaseBundle(NavigationType.ClearAndPush));
+    public class RouterSubscriber : AppRopio.Base.Core.RouterSubsriber
+    {
+        public override bool CanNavigatedTo(string type, BaseBundle bundle = null)
+        {
+            var vm = LookupService.Resolve<IViewModel>();
+            ShowViewModel(vm, new BaseBundle(NavigationType.ClearAndPush));
 
-			return true;
-		}
+            return true;
+        }
 
-		public override void FailedNavigatedTo(string type, BaseBundle bundle = null)
-		{
-			//nothing
-		}
-	}
+        public override void FailedNavigatedTo(string type, BaseBundle bundle = null)
+        {
+            //nothing
+        }
+    }
 }
 ```
 
