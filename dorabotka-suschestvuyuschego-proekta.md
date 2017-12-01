@@ -13,6 +13,8 @@
 * [Разработка экранов](/dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
 * [Работа с навигацией](/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
 * [Создание своей темы и переопределение существующей](/dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
+* [Список необходимых пакетов](/sborka-novogo-proekta/spisok-paketov.md)
+* [Подробное описание процесса разработки модуля](https://habrahabr.ru/company/microsoft/blog/316714/)
 
 
 

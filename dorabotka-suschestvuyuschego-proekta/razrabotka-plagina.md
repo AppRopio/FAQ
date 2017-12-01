@@ -10,7 +10,7 @@
 
 Models \(модели, которые используются для клиент-серверного взаимодействия\), API \(будет отвечать за взаимодействие с сервером\) и CORE \(содержит всю бизнес-логику\) проекты типа Portable Class Library.
 
-Теперь необходимо подключить в эти проекты пакеты MvvmCross \(соответствующие версии можно взять [здесь](/sborka-novogo-proekta/spisok-paketov.md)\) и добавить ссылки на [базовые библиотеки AppRopio](/perechen-bibliotek-modulei.md). 
+Теперь необходимо подключить в эти проекты пакеты MvvmCross \(соответствующие версии можно взять [здесь](/sborka-novogo-proekta/spisok-paketov.md)\) и добавить ссылки на [базовые библиотеки AppRopio](/perechen-bibliotek-modulei.md).
 
 ## Настройка Core
 
@@ -84,8 +84,6 @@ public class PluginName_PluginBootstrap
 * [Создание и разработка экранов](/dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
 * [Навигация между экранами](/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
 * [Работа с темой](/dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
-
-
 
 
 
