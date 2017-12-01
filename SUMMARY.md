@@ -16,4 +16,5 @@
   * [Разработка экранов](dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
   * [Работа с навигацией](dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
 * [Перечень библиотек модулей](perechen-bibliotek-modulei.md)
+* [Bitrise. Автоматизация сборки проекта](bitrise-avtomatizatsiya-sborki-proekta.md)
 
