@@ -16,6 +16,7 @@
   * [Разработка ядра](dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md)
   * [Разработка экранов](dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
   * [Работа с навигацией](dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
+  * [RouterSubscriber](dorabotka-suschestvuyuschego-proekta/routersubscriber.md)
 * [Перечень библиотек модулей](perechen-bibliotek-modulei.md)
 * [Bitrise. Автоматизация сборки проекта](bitrise-avtomatizatsiya-sborki-proekta.md)
 
