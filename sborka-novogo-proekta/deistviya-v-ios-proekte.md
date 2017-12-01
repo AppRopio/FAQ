@@ -18,7 +18,7 @@
 
 * [ ] Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта![](/sborka-novogo-proekta/deistviya-v-ios-proekte/add mtouch arguments.png)
 
-* [ ] Изменить `AppDelegate` \(наследовать от `ARApplicationDelegate` и переопределить методы `CreateSetup` и `CreatePresenter` \)
+* [ ] Изменить `AppDelegate` \(наследовать от `ARApplicationDelegate` и переопределить методы `CreateSetup` и `CreatePresenter` , [пример](/sborka-novogo-proekta/deistviya-v-ios-proekte/appdelegate.md)\)
 
 * [ ] Добавить в проект постзагрузочный индикатор \([loader.html](/sborka-novogo-proekta/deistviya-v-ios-proekte/loader.html) со свойством `BuildAction` установленным в `BundleResource` \)
 

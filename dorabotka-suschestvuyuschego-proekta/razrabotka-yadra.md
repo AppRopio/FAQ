@@ -19,6 +19,8 @@ public class App : AppRopio.***.Navigation.Core.App
 }
 ```
 
+## RouterSubscriber
+
 Сейчас необходимо создать обработчик, который будет являться точкой входа для модуля навигации. Этот обработчик называется `RouterSubscriber`
 
 ```
@@ -33,7 +35,7 @@ namespace ProjectName.Core.Services.Implementations
     {
         public override bool CanNavigatedTo(string type, BaseBundle bundle = null)
         {
-            var vm = LookupService.Resolve<IViewModel>();
+            var vm = LookupService.Resolve(type);
             ShowViewModel(vm, new BaseBundle(NavigationType.ClearAndPush));
 
             return true;
@@ -44,6 +46,39 @@ namespace ProjectName.Core.Services.Implementations
             //nothing
         }
     }
+}
+```
+
+В самом простом случае `RouterSubscriber` всего лишь получает тип класса `ViewModel`, зарегистрированной для текущего `type` и выполняет навигацию на него, используя стандартные механизмы MvvmCross. Однако возможности `RouterSubscriber` на этом не ограничиваются, потому что принимаемый им `type` не обязательно должен быть типом какой-либо `ViewModel`, это может быть тип любого класса \(или любая строка\), который поможет определить порядок действий при навигации в модуль. Помимо этого, в `RouterSubscriber` также могут придти параметры для первичной инициализации \(параметр `bundle`\). Это может потребоваться в случаях, когда модуль зависит от текущих настроек запущенного приложения \(например, модуль оплаты будет принимать через этот параметр информацию о заказе\).
+
+После создания `RouterSubscriber` его необходимо зарегистрировать в соответствующем сервисе. Для этого нужно переопределить в `App.cs` метод `Initialize`
+
+```
+public class App : AppRopio.***.Navigation.Core.App
+{
+    public override Initialize()
+    {
+        base.Initialize();
+        Mvx.CallbackWhenRegistered<IRouterService>((service) => router.Register<Type>(new RouterSubscriber()));
+    }
+}
+```
+
+Регистрацию **обязательно** надо выполнять через callback по регистрации сервиса `IRouterService`, так как все плагины и сам MvvmCross стартуют асинхронно и нет гарантии что к моменту старта твоего ядра все сервисы будут зарегистрированы.
+
+## Setup
+
+Следующим шагом необходимо создать в UI проекте файл `Setup.cs` , в котором будет осуществляться настройка UI проекта, а также будет создаваться инстанс приложения из твоего ядра. Этот класс должен быть наследован от соответствующего класса в выбранном модуле навигации:
+
+```
+public class Setup : AppRopio.***.Navigation.***.App
+{
+    public Setup(IMvxApplicationDelegate navDelegate, MvxIosViewPresenter presenter) 
+    : base(navDelegate, presenter)
+    {
+    }
+    
+    ...
 }
 ```
 
