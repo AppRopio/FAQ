@@ -19,4 +19,5 @@
   * [RouterSubscriber](dorabotka-suschestvuyuschego-proekta/routersubscriber.md)
 * [Перечень библиотек модулей](perechen-bibliotek-modulei.md)
 * [Bitrise. Автоматизация сборки проекта](bitrise-avtomatizatsiya-sborki-proekta.md)
+* [Релизный чек-лист](reliznii-chek-list.md)
 
