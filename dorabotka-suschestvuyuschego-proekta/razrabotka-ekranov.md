@@ -14,3 +14,4 @@ ViewModel – абстракция экрана – работает с неск
 * [NavigationVmService](/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md) – сервис, являющийся основой для навигации внутри модуля и между модулями
 * Messages – подписки на сообщения от других моделей, если нет другого способа получить данные (например, об обновлении определенного значения в другом модуле)
 
+Для обеспечения корректной работы каждая ViewModel должна наследоваться от `BaseViewModel` и имплементировать два метода: `void Prepare(IMvxBundle parameter)` и `Task Initialize()`.
