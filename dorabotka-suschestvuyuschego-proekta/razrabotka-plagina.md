@@ -52,7 +52,7 @@ public class PluginLoader : IMvxPluginLoader
 
 ### RouterSubscriber
 
-Теперь нужно создать и зарегистрировать класс `RouterSubscriber` . Подробную инструкцию можно найти [здесь](/dorabotka-suschestvuyuschego-proekta/routersubscriber.md).
+Теперь нужно создать и зарегистрировать класс `RouterSubscriber`. Подробную инструкцию можно найти [здесь](/dorabotka-suschestvuyuschego-proekta/routersubscriber.md).
 
 ## Настройка UI
 
