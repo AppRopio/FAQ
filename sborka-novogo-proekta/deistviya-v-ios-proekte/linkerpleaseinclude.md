@@ -38,6 +38,7 @@ public class LinkerPleaseInclude
     {
         barButton.Clicked += (s, e) =>
             barButton.Title = barButton.Title + "";
+        barButton.WeakSubscribe(nameof(barButton.Clicked), null);
     }
 
     public void Include(UITextField textField)
@@ -45,12 +46,27 @@ public class LinkerPleaseInclude
         textField.Text = textField.Text + "";
         textField.EditingChanged += (sender, args) => { textField.Text = ""; };
         textField.AttributedText = new NSAttributedString(textField.AttributedText.ToString() + "");
+        textField.WeakSubscribe(nameof(textField.EditingChanged), null);
     }
 
     public void Include(UITextView textView)
     {
         textView.Text = textView.Text + "";
         textView.Changed += (sender, args) => { textView.Text = ""; };
+        textView.LayoutManager.TextStorage.DidProcessEditing += (sender, e) => { };
+        textView.LayoutManager.TextStorage.WeakSubscribe<NSTextStorage, NSTextStorageEventArgs>(nameof(textView.LayoutManager.TextStorage.DidProcessEditing), null);
+    }
+
+    public void Include (NSLayoutManager layoutManager)
+    {
+        layoutManager.TextStorage.DidProcessEditing += (sender, e) => { };
+        layoutManager.TextStorage.WeakSubscribe<NSTextStorage, NSTextStorageEventArgs>(nameof(layoutManager.TextStorage.DidProcessEditing), null);
+    }
+
+    public void Include (NSTextStorage textStorage)
+    {
+        textStorage.DidProcessEditing += (sender, e) => { };
+        textStorage.WeakSubscribe<NSTextStorage, NSTextStorageEventArgs>(nameof(textStorage.DidProcessEditing), null);
     }
 
     public void Include(UILabel label)
@@ -64,10 +80,11 @@ public class LinkerPleaseInclude
         imageView.Image = new UIImage(imageView.Image.CGImage);
     }
 
-    public void Include(UIDatePicker date)
+    public void Include(UIDatePicker datePicker)
     {
-        date.Date = date.Date.AddSeconds(1);
-        date.ValueChanged += (sender, args) => { date.Date = NSDate.DistantFuture; };
+        datePicker.Date = datePicker.Date.AddSeconds(1);
+        datePicker.ValueChanged += (sender, args) => { datePicker.Date = NSDate.DistantFuture; };
+        datePicker.WeakSubscribe<UIDatePicker, EventArgs>(nameof(datePicker.ValueChanged), null);
     }
 
     public void Include(UISlider slider)
@@ -85,6 +102,7 @@ public class LinkerPleaseInclude
     {
         sw.On = !sw.On;
         sw.ValueChanged += (sender, args) => { sw.On = false; };
+        sw.WeakSubscribe(nameof(sw.ValueChanged), null);
     }
 
     public void Include(MvxViewController vc)
@@ -98,10 +116,11 @@ public class LinkerPleaseInclude
         s.ValueChanged += (sender, args) => { s.Value = 0; };
     }
 
-    public void Include(UIPageControl s)
+    public void Include(UIPageControl pageControl)
     {
-        s.Pages = s.Pages + 1;
-        s.ValueChanged += (sender, args) => { s.Pages = 0; };
+        pageControl.Pages = pageControl.Pages + 1;
+        pageControl.ValueChanged += (sender, args) => { pageControl.Pages = 0; };
+        pageControl.WeakSubscribe(nameof(pageControl.ValueChanged), null);
     }
 
     public void Include(INotifyCollectionChanged changed)
@@ -122,6 +141,37 @@ public class LinkerPleaseInclude
     public void Include(System.ComponentModel.INotifyPropertyChanged changed)
     {
         changed.PropertyChanged += (sender, e) => { var test = e.PropertyName; };
+    }
+
+    public void Include (MvxWeakEventSubscription<object, EventArgs> subscription)
+    {
+        typeof(object).GetEvent("");
+        subscription = new MvxWeakEventSubscription<object, EventArgs>(null, "", null);
+        subscription.Dispose();
+    }
+
+    public void Include (MvxNotifyPropertyChangedEventSubscription subsctiption)
+    {
+        subsctiption = new MvxNotifyPropertyChangedEventSubscription(null, null);
+        subsctiption.Dispose();
+    }
+
+    public void Include(MvxCanExecuteChangedEventSubscription subsctiption)
+    {
+        subsctiption = new MvxCanExecuteChangedEventSubscription(null, null);
+        subsctiption.Dispose();
+    }
+
+    public void Include(MvxGeneralEventSubscription subsctiption)
+    {
+        subsctiption = new MvxGeneralEventSubscription(null, null, null);
+        subsctiption.Dispose();
+    }
+
+    public void Include (UISearchBar searchBar)
+    {
+        searchBar.TextChanged += (sender, e) => { };
+        searchBar.WeakSubscribe<UISearchBar, UISearchBarTextChangedEventArgs>(nameof(searchBar.TextChanged), null);
     }
 }
 ```
