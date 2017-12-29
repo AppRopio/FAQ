@@ -43,6 +43,13 @@ public class PluginLoader : IMvxPluginLoader
 
         new App().Initialize();
 
+        new API.App().Initialize();
+
+        new App().Initialize();
+        
+        var manager = Mvx.Resolve<IMvxPluginManager>();
+        manager.EnsurePlatformAdaptionLoaded<PluginLoader>();
+
         MvxTrace.Trace(MvxTraceLevel.Diagnostic, $"{PluginName} plugin is loaded");
 
         _loaded = true;
