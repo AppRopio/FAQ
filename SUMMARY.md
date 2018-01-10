@@ -18,7 +18,7 @@
   * [Работа с навигацией](dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
   * [RouterSubscriber](dorabotka-suschestvuyuschego-proekta/routersubscriber.md)
 * [Перечень библиотек модулей](perechen-bibliotek-modulei.md)
-* [Bitrise. Автоматизация сборки проекта](bitrise-avtomatizatsiya-sborki-proekta.md)
+* [Visual Studio Team Services \(VSTS\). Автоматизация сборки проекта](vsts-avtomatizatsiya-sborki-proekta.md)
 * [Релизный чек-лист](reliznii-chek-list.md)
 * [Code snippets](code-snippets.md)
 
