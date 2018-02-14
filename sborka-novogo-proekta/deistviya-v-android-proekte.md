@@ -20,19 +20,21 @@
     
 * Добавить в проект файлы:
 
-  * [LinkerPleaseInclude](/sborka-novogo-proekta/deistviya-v-android-proekte/linkerpleaseinclude.md)
+  * [LinkerPleaseInclude.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/linkerpleaseinclude.md)
   
-  * Application
+  * [Application.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/application.md)
+  
+  * [SplashActivity.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/splashactivity.md)
+  
+  * [Setup.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/setup.md)
 
 * Подключить dll'ки в соответствии со списком модулей и настроек \(таблицу соответствия между библиотеками и модулями можно найти [здесь](/perechen-bibliotek-modulei.md)\)
 
   * Добавить Bootstrap-файлы для каждого модуля
 
-  * Добавить папку `Settings` с конфигурационными файлами для ядра каждого модуля
+  * В папку `Assets` добавить папку `Settings/Configs` с конфигурационными файлами для **ядра** каждого модуля
 
   * Подключить требуемые пакеты \(список основных пакетов можно найти [здесь](/sborka-novogo-proekta/spisok-paketov.md)\)
-
-  * Подключить пакет иконок \(полный пакет иконок можно скачать [отсюда](/Images.zip)\)
 
 * Проверить сборку и запуск проекта на симуляторе
 
