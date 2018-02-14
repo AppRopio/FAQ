@@ -10,6 +10,8 @@
   
   * Проверить в `strings.xml` название приложения 
   
+  * Изменить в `Resource.designer.cs` namespace и значение `fullName` в атрибуте `ResourceDesignerAttribute` на корректные
+  
   * Изменить `AppAttributesValues.xml`:
   
     * изменить цветовую палитру
@@ -37,6 +39,8 @@
   * Подключить требуемые пакеты \(список основных пакетов можно найти [здесь](/sborka-novogo-proekta/spisok-paketov.md)\)
 
 * Проверить сборку и запуск проекта на симуляторе
+
+* Заменить иконки на корректные, если требуется
 
 * Запросить ApiKey и иденификатор компании \(подробная [инструкция](/sborka-novogo-proekta/zapros-litsenzii.md)\)
 
