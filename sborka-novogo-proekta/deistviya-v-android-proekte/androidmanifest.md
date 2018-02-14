@@ -38,6 +38,8 @@ Target framework: use latest installed platform
 <meta-data android:name="com.google.android.geo.API_KEY" android:value="api_key" />
 ```
 
+Подробнее про получения ключа [здесь](https://developers.google.com/maps/documentation/android-api/signup?hl=ru)
+
 ## Итоге
 
 В итоге манифест должен выглядеть примерно так:
