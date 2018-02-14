@@ -9,6 +9,8 @@
     * [AppDelegate](sborka-novogo-proekta/deistviya-v-ios-proekte/appdelegate.md)
   * [Действия в Android проекте](sborka-novogo-proekta/deistviya-v-android-proekte.md)
     * [LinkerPleaseInclude](sborka-novogo-proekta/deistviya-v-android-proekte/linkerpleaseinclude.md)
+    * [AndroidManifest.xml](sborka-novogo-proekta/deistviya-v-android-proekte/androidmanifest.md)
+    * [Работа с темой приложения](sborka-novogo-proekta/deistviya-v-android-proekte/sozdanie-temi-prilozheniya.md)
   * [Список пакетов](sborka-novogo-proekta/spisok-paketov.md)
   * [Запрос лицензии и идентификатора компании](sborka-novogo-proekta/zapros-litsenzii.md)
 * [Доработка существующего проекта](dorabotka-suschestvuyuschego-proekta.md)

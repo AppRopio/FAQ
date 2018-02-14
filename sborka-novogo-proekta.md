@@ -9,6 +9,9 @@
 
 ### Android
 
+* Создать package name в соответствии с маской `com.notissimus.{имя_приложения}.{название_платформы}`
+* Создать .keystore и получить Push Sender ID
+
 ## Репозиторий
 
 * Склонировать AppRopio.Clients
