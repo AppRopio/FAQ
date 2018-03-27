@@ -1,6 +1,0 @@
-# AppRopio
-
-[Languages](/LANGS.md)
-
-
-
