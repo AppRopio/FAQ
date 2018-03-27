@@ -2,7 +2,7 @@
 
 ## Выбор подхода
 
-Существует два подхода для доработки доставшегося тебе проекта. Первый – [_разработка плагина_](/dorabotka-suschestvuyuschego-proekta/razrabotka-plagina.md), второй – [_разработка ядра_](/dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md)_. _
+Существует два подхода для доработки доставшегося тебе проекта. Первый – [_разработка плагина_](dorabotka-suschestvuyuschego-proekta/razrabotka-plagina.md), второй – [_разработка ядра_](dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md)_. _
 
 Первый подход позволяет использовать все возможности платформы AppRopio с минимальным вмешательством в настройки существующего проекта, а также дает возможность легко переиспользовать написанный тобою код \(ты даже можешь подать заявку на включение твоего модуля в базу\).
 
@@ -10,10 +10,10 @@
 
 ## Дополнительные материалы
 
-* [Разработка экранов](/dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
-* [Работа с навигацией](/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
-* [Создание своей темы и переопределение существующей](/dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
-* [Список необходимых пакетов](/sborka-novogo-proekta/spisok-paketov.md)
+* [Разработка экранов](dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
+* [Работа с навигацией](dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
+* [Создание своей темы и переопределение существующей](dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
+* [Список необходимых пакетов](sborka-novogo-proekta/spisok-paketov.md)
 * [Подробное описание процесса разработки модуля](https://habrahabr.ru/company/microsoft/blog/316714/)
 
 

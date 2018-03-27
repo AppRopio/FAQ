@@ -8,7 +8,7 @@
 
 Так как UI проекты уже созданы, требуется лишь создать API \(будет отвечать за взаимодействие с сервером\) и CORE \(содержит всю бизнес-логику\) проекты типа Portable Class Library.
 
-Теперь во все проекты необходимо добавить NuGet пакет MvvmCross \(поддерживаемую версию можно взять [здесь](/sborka-novogo-proekta/spisok-paketov.md), добавлять нужно только MvvmCross пакет, не учитывая пока плагинов и других пакетов\) и добавить ссылки на [базовые библиотеки AppRopio](/perechen-bibliotek-modulei.md).
+Теперь во все проекты необходимо добавить NuGet пакет MvvmCross \(поддерживаемую версию можно взять [здесь](/ru/sborka-novogo-proekta/spisok-paketov.md), добавлять нужно только MvvmCross пакет, не учитывая пока плагинов и других пакетов\) и добавить ссылки на [базовые библиотеки AppRopio](/ru/perechen-bibliotek-modulei.md).
 
 Чтобы ядро запустилось, необходимо создать в нем собственный `Application` \(`App.cs`\) и наследовать его от `App.cs` из пакета подключенной сейчас навигации:
 
@@ -21,7 +21,7 @@ public class App : AppRopio.***.Navigation.Core.App
 
 ## RouterSubscriber
 
-Теперь необходимо создать и зарегистрировать класс `RouterSubscriber` . Подробную инструкцию можно найти [здесь](/dorabotka-suschestvuyuschego-proekta/routersubscriber.md).
+Теперь необходимо создать и зарегистрировать класс `RouterSubscriber` . Подробную инструкцию можно найти [здесь](routersubscriber.md).
 
 ## Setup
 
@@ -58,15 +58,15 @@ public class Setup : AppRopio.***.Navigation.***.App
 
 Таким образом мы даем MvvmCross'у инстанс приложения, который он будет использовать в дальнейшем.
 
-Осталось только прописать в классе `AppDelegate` в методе `CreateSetup` создание экземпляра класса `Setup` , заменив текущую реализацию. Подробнее узнать о методах класса `AppDelegate` и их назначении можно [здесь](/sborka-novogo-proekta/deistviya-v-ios-proekte/appdelegate.md).
+Осталось только прописать в классе `AppDelegate` в методе `CreateSetup` создание экземпляра класса `Setup` , заменив текущую реализацию. Подробнее узнать о методах класса `AppDelegate` и их назначении можно [здесь](/ru/sborka-novogo-proekta/deistviya-v-ios-proekte/appdelegate.md).
 
 На этом заканчивается подготовительная работа, можно начинать описывать бизнес-логику приложения.
 
 ## Дополнительные материалы
 
-* [Создание и разработка экранов](/dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
-* [Навигация между экранами](/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
-* [Работа с темой](/dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
+* [Создание и разработка экранов](razrabotka-ekranov.md)
+* [Навигация между экранами](rabota-s-navigatsiei.md)
+* [Работа с темой](rabota-s-temoi-proekta.md)
 
 
 

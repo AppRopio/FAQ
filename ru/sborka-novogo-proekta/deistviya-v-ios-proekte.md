@@ -1,22 +1,22 @@
 # Подготовка iOS проекта
 
-* Проверить `Info.plist` \(взять необходимые свойства из списка [здесь](/sborka-novogo-proekta/deistviya-v-ios-proekte/infoplist.md)\)
+* Проверить `Info.plist` \(взять необходимые свойства из списка [здесь](sborka-novogo-proekta/deistviya-v-ios-proekte/infoplist.md)\)
 
 * Удалить из проекта лишние файлы \(`ViewController.cs`, `Main.storyboard`, `LaunchScreen.storyboard`\)
 
-* Подключить dll'ки в соответствии со списком модулей и настроек \(таблицу соответствия между библиотеками и модулями можно найти [здесь](/perechen-bibliotek-modulei.md)\)
+* Подключить dll'ки в соответствии со списком модулей и настроек \(таблицу соответствия между библиотеками и модулями можно найти [здесь](perechen-bibliotek-modulei.md)\)
 
   * Добавить Bootstrap-файлы для каждого модуля
 
   * Добавить папку `Settings` с конфигурационными файлами для ядра и для темы каждого модуля
 
-  * Подключить требуемые пакеты \(список основных пакетов можно найти [здесь](/sborka-novogo-proekta/spisok-paketov.md)\)
+  * Подключить требуемые пакеты \(список основных пакетов можно найти [здесь](sborka-novogo-proekta/spisok-paketov.md)\)
 
-  * Подключить пакет иконок \(полный пакет иконок можно скачать [отсюда](/Images.zip)\)
+  * Подключить пакет иконок \(полный пакет иконок можно скачать [отсюда](Images.zip)\)
 
-* Добавить в проект [LinkerPleaseInclude.cs](/sborka-novogo-proekta/deistviya-v-ios-proekte/linkerpleaseinclude.md)
+* Добавить в проект [LinkerPleaseInclude.cs](sborka-novogo-proekta/deistviya-v-ios-proekte/linkerpleaseinclude.md)
 
-* Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта![](/sborka-novogo-proekta/deistviya-v-ios-proekte/add mtouch arguments.png)
+* Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта![](sborka-novogo-proekta/deistviya-v-ios-proekte/add mtouch arguments.png)
 
 * Изменить `AppDelegate` \(наследовать от `ARApplicationDelegate` и переопределить методы `CreateSetup` и `CreatePresenter` , [пример](/sborka-novogo-proekta/deistviya-v-ios-proekte/appdelegate.md)\)
 

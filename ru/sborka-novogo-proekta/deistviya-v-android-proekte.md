@@ -16,33 +16,33 @@
     
     * изменить палитру контролов [опционально] 
 
-* Проверить `AndroidManifest.xml` \(взять необходимые свойства из списка [здесь](/sborka-novogo-proekta/deistviya-v-android-proekte/androidmanifest.md)\)
+* Проверить `AndroidManifest.xml` \(взять необходимые свойства из списка [здесь](deistviya-v-android-proekte/androidmanifest.md)\)
 
 * Поменять название темы в ресурсах на заданную в `AndroidManifest.xml` ранее
 
-* Подключить dll'ки в соответствии со списком модулей и настроек \(таблицу соответствия между библиотеками и модулями можно найти [здесь](/perechen-bibliotek-modulei.md)\)
+* Подключить dll'ки в соответствии со списком модулей и настроек \(таблицу соответствия между библиотеками и модулями можно найти [здесь](/ru/perechen-bibliotek-modulei.md)\)
 
   * Добавить Bootstrap-файлы для каждого модуля
 
   * В папку `Assets` добавить папку `Settings/Configs` с конфигурационными файлами для **ядра** каждого модуля
 
-  * Подключить требуемые пакеты \(список основных пакетов можно найти [здесь](/sborka-novogo-proekta/spisok-paketov.md)\)
+  * Подключить требуемые пакеты \(список основных пакетов можно найти [здесь](spisok-paketov.md)\)
   
 * Добавить в корень проекта файлы:
 
-  * [LinkerPleaseInclude.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/linkerpleaseinclude.md)
+  * [LinkerPleaseInclude.cs](deistviya-v-android-proekte/linkerpleaseinclude.md)
   
-  * [Application.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/application.md)
+  * [Application.cs](deistviya-v-android-proekte/application.md)
   
-  * [SplashActivity.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/splashactivity.md)
+  * [SplashActivity.cs](deistviya-v-android-proekte/splashactivity.md)
   
-  * [Setup.cs](/sborka-novogo-proekta/deistviya-v-android-proekte/setup.md)
+  * [Setup.cs](deistviya-v-android-proekte/setup.md)
 
 * Проверить сборку и запуск проекта на симуляторе
 
 * Заменить иконки на корректные, если требуется
 
-* Запросить ApiKey и иденификатор компании \(подробная [инструкция](/sborka-novogo-proekta/zapros-litsenzii.md)\)
+* Запросить ApiKey и иденификатор компании \(подробная [инструкция](zapros-litsenzii.md)\)
 
 * Запросить подключение к билд-серверу или корректировку его параметров
 

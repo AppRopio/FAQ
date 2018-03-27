@@ -27,8 +27,8 @@
 
 ## Решение
 
-* [Описание действий в iOS-проекте](/sborka-novogo-proekta/deistviya-v-ios-proekte.md)
-* [Описание действий в Android проекте](/sborka-novogo-proekta/deistviya-v-android-proekte.md)
+* [Описание действий в iOS-проекте](sborka-novogo-proekta/deistviya-v-ios-proekte.md)
+* [Описание действий в Android проекте](sborka-novogo-proekta/deistviya-v-android-proekte.md)
 * Проверить список конфигураций сборок проектов, чтобы они не пересекались между проектами. Для iOS проекта должны быть активны конфигурации `[Debug/Release]|[iPhoneSimulator/iPhone]`, для Android проекта – `[Debug/Release]/[Any CPU]`. При необходимости создать недостающие конфигурации для решения и проверить Configuration Mappings
 
 

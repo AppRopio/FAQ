@@ -14,7 +14,7 @@
 
 ## Указать тему приложения
 
-В поле `Application theme` прописать: `@style/Theme.Name`, где `Name` – названии темы приложения, обычно совпадающее с названием приложения. Подробнее про создание темы приложения смотри [здесь](/sborka-novogo-proekta/deistviya-v-android-proekte/sozdanie-temi-prilozheniya.md)
+В поле `Application theme` прописать: `@style/Theme.Name`, где `Name` – названии темы приложения, обычно совпадающее с названием приложения. Подробнее про создание темы приложения смотри [здесь](sozdanie-temi-prilozheniya.md)
 
 ## Версия Android
 

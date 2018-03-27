@@ -10,7 +10,7 @@
 
 Models \(модели, которые используются для клиент-серверного взаимодействия\), API \(будет отвечать за взаимодействие с сервером\) и CORE \(содержит всю бизнес-логику\) проекты типа Portable Class Library.
 
-Теперь во все проекты, кроме Models, необходимо добавить NuGet пакет MvvmCross \(поддерживаемую версию можно взять [здесь](/sborka-novogo-proekta/spisok-paketov.md), добавлять нужно только MvvmCross пакет, не учитывая пока плагинов и других пакетов\) и добавить ссылки на [базовые библиотеки AppRopio](/perechen-bibliotek-modulei.md).
+Теперь во все проекты, кроме Models, необходимо добавить NuGet пакет MvvmCross \(поддерживаемую версию можно взять [здесь](/ru/sborka-novogo-proekta/spisok-paketov.md), добавлять нужно только MvvmCross пакет, не учитывая пока плагинов и других пакетов\) и добавить ссылки на [базовые библиотеки AppRopio](/ru/perechen-bibliotek-modulei.md).
 
 ## Настройка Core
 
@@ -59,7 +59,7 @@ public class PluginLoader : IMvxPluginLoader
 
 ### RouterSubscriber
 
-Теперь нужно создать и зарегистрировать класс `RouterSubscriber`. Подробную инструкцию можно найти [здесь](/dorabotka-suschestvuyuschego-proekta/routersubscriber.md).
+Теперь нужно создать и зарегистрировать класс `RouterSubscriber`. Подробную инструкцию можно найти [здесь](routersubscriber.md).
 
 ## Настройка UI
 
@@ -88,9 +88,9 @@ public class PluginName_PluginBootstrap
 
 ## Дополнительные материалы
 
-* [Создание и разработка экранов](/dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
-* [Навигация между экранами](/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
-* [Работа с темой](/dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
+* [Создание и разработка экранов](razrabotka-ekranov.md)
+* [Навигация между экранами](rabota-s-navigatsiei.md)
+* [Работа с темой](rabota-s-temoi-proekta.md)
 
 
 
