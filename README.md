@@ -1,6 +1,6 @@
 # AppRopio
 
-[Languages](LANG.md)
+[Languages](/LANG.md)
 
 
 
