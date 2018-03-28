@@ -26,7 +26,6 @@
         * [Аргументы mtouch](sborka-novogo-proekta/deistviya-v-ios-proekte/dobavlenie-argumentov-mtouch.md)
         * [Info.plist](sborka-novogo-proekta/deistviya-v-ios-proekte/infoplist.md)
         * [LinkerPleaseInclude.cs](sborka-novogo-proekta/deistviya-v-ios-proekte/linkerpleaseinclude.md)
-        * [loader.html](sborka-novogo-proekta/deistviya-v-ios-proekte/loader.html)
     * [Список необходимых пакетов](sborka-novogo-proekta/spisok-paketov.md)
     * [Запрос лицензии](sborka-novogo-proekta/zapros-litsenzii.md)
 * [Автоматизация сборки VSTS](vsts-avtomatizatsiya-sborki-proekta.md)
