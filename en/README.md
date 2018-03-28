@@ -1,12 +1,6 @@
 # AppRopio - mobile apps builder for iOS/Android based on Microsoft Xamarin
 
-Project AppRopio has been creating fromDec. 2016 till yesterday. With the current written code, the project code preterpered significant changes and in planetary architectures, and in planetary approach to implementations ideas constructor mobile application.
-
-В этом руководстве мы постарались собрать все материалы какие только возможно, для того чтобы у тебя, как у пользователя этой платформы, не осталось вопросов и незакрытых моментов по работе с AppRopio.
-
-Перед дальнейшим чтением следует учитывать, что для понимания описанного потребуются знания следующих технологий и стандартов JSON, XML, C\#, Xamarin, iOS SDK, Android SDK. Если тебе что-то кажется незнакомым или неясным, мы рекомендуем тебе изучить этот момент, прежде чем двигаться дальше.
-
-Все вопросы, найденные ошибки и пожелания по отправлять по адресу info@appropio.com или оформлять в качестве discussion на GitBook \(шаблон для оформления можно найти [здесь](discussion-template.md)\)
+Project **AppRopio **has been creating from Dec. 2016 till yesterday. With the first written code, the project has faced significant changes in its architectures and approaches to implementation ideas about creating mobile app builder. Before you start please make sure you fully understand the technology and standards of JSON, XML, C \#, Xamarin, iOS SDK, and Android SDK. If you think something is unfamiliar or unclear, we recommend that you study this moment before moving on. All questions, found mistakes and wishes please sending to info@appropio.com or as a discussion on GitBook.
 
 **ВАЖНО!**
 
