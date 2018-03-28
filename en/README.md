@@ -1,10 +1,6 @@
-# AppRopio - mobile apps builer for iOS/Android based o
+# AppRopio - mobile apps builder for iOS/Android based on Microsoft Xamarin
 
- Project AppRopio has been creating fromDec. 2016 till yesterday. Project AppRopio разрабатывается with Dec. 2016 yesterday. With the current written code, the project code preterpered significant changes and in planetary architectures, and in planetary approach to implementations ideas constructor mobile application.
-
-
-
-
+Project AppRopio has been creating fromDec. 2016 till yesterday. With the current written code, the project code preterpered significant changes and in planetary architectures, and in planetary approach to implementations ideas constructor mobile application.
 
 В этом руководстве мы постарались собрать все материалы какие только возможно, для того чтобы у тебя, как у пользователя этой платформы, не осталось вопросов и незакрытых моментов по работе с AppRopio.
 
