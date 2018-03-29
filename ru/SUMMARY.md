@@ -29,3 +29,5 @@
     * [Список необходимых пакетов](sborka-novogo-proekta/spisok-paketov.md)
     * [Запрос лицензии](sborka-novogo-proekta/zapros-litsenzii.md)
 * [Автоматизация сборки VSTS](vsts-avtomatizatsiya-sborki-proekta.md)
+* [Особенности работы с каждым модулем](osobennosti-raboty-s-modulyami.md)
+    * [Оплаты](modules/payments.md)
