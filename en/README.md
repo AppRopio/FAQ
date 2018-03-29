@@ -7,7 +7,7 @@ Before submitting an application to the release to make sure that you:
 * connected the latest versions of the AppRopio libraries
 * updated packages to the latest versions that use the AppRopio libraries
 * put branding in** **`App.json` **\(**`"appLabel": "contacts" or`** **`"appLabel": "information"`**\)**
-* go through the checklist** **[**чек-листу**](reliznii-chek-list.md)
+* go through the [checklist](https://appropio.gitbooks.io/faq/content/en/reliznii-chek-list.md)
 
 
 
