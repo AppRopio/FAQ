@@ -16,7 +16,7 @@
 
 * Добавить в проект [LinkerPleaseInclude.cs](deistviya-v-ios-proekte/linkerpleaseinclude.md)
 
-* Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта![](sborka-novogo-proekta/deistviya-v-ios-proekte/add mtouch arguments.png)
+* Добавить `--linkskip=MvvmCross --linkskip=MvvmCross.Core --linkskip=MvvmCross.Binding --linkskip=MvvmCross.Platform` в аргументы mtouch запускаемого проекта![](deistviya-v-ios-proekte/add mtouch arguments.png)
 
 * Изменить `AppDelegate` \(наследовать от `ARApplicationDelegate` и переопределить методы `CreateSetup` и `CreatePresenter` , [пример](deistviya-v-ios-proekte/appdelegate.md)\)
 
