@@ -31,3 +31,6 @@
 * [Автоматизация сборки VSTS](vsts-avtomatizatsiya-sborki-proekta.md)
 * [Особенности работы с каждым модулем](osobennosti-raboty-s-modulyami.md)
     * [Оплаты](modules/payments.md)
+        * [CloudPayments.json](modules/payments-cloudpayments-config.md)
+        * [Basket.json для CloudPayments](modules/payments-cloudpayments-basketconfig.md)
+        * [ApplePay.json](modules/payments-applepay-config.md)
