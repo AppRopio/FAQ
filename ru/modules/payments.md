@@ -25,14 +25,14 @@
 
 ## CloudPayments
 
-* Добавить ссылки на библиотеки (подробнее [здесь](/ru/perechen-bibliotek-modulei.md))
+* Добавить ссылки на библиотеки (подробнее [здесь](/perechen-bibliotek-modulei.md))
 * Добавить bootstrap
 * Добавить Configs/CloudPayment.json (подробнее [здесь](payments-cloudpayments-config.md))
 * *[опционально] Зарегистрировать в Configs/Basket.json (подробнее [здесь](payments-cloudpayments-basketconfig.md))*
 
 ## ApplePay
 
-* Добавить ссылки на библиотеки (подробнее [здесь](/ru/perechen-bibliotek-modulei.md))
+* Добавить ссылки на библиотеки (подробнее [здесь](/perechen-bibliotek-modulei.md))
 * Добавить bootstrap
 * Добавить Configs/ApplePay.json (подробнее [здесь](payments-applepay-config.md))
 * Зарегистрировать merchantId на [developer.apple.com](https://developer.apple.com)
