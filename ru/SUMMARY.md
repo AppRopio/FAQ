@@ -1,5 +1,6 @@
 # Summary
 
+* [Выбор языка](/LANGS.md)
 * [Введение](README.md)
 * [Сниппеты](code-snippets.md)
 * [Шаблон обсуждения](discussion-template.md)
