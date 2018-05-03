@@ -1,4 +1,4 @@
-# Разработка плагина
+# razrabotka-plagina
 
 При выборе этого способа, необходимо создать в проекте создать отдельную `Solution Folder` по имени модуля, в которой создать следующие проекты:
 
@@ -10,7 +10,7 @@
 
 Models \(модели, которые используются для клиент-серверного взаимодействия\), API \(будет отвечать за взаимодействие с сервером\) и CORE \(содержит всю бизнес-логику\) проекты типа Portable Class Library.
 
-Теперь во все проекты, кроме Models, необходимо добавить NuGet пакет MvvmCross \(поддерживаемую версию можно взять [здесь](/sborka-novogo-proekta/spisok-paketov.md), добавлять нужно только MvvmCross пакет, не учитывая пока плагинов и других пакетов\) и добавить ссылки на [базовые библиотеки AppRopio](/perechen-bibliotek-modulei.md).
+Теперь во все проекты, кроме Models, необходимо добавить NuGet пакет MvvmCross \(поддерживаемую версию можно взять [здесь](https://github.com/appropio/faq/tree/01a74964a039dfb9acb17ee3a5d97021d54f864c/sborka-novogo-proekta/spisok-paketov.md), добавлять нужно только MvvmCross пакет, не учитывая пока плагинов и других пакетов\) и добавить ссылки на [базовые библиотеки AppRopio](https://github.com/appropio/faq/tree/01a74964a039dfb9acb17ee3a5d97021d54f864c/perechen-bibliotek-modulei.md).
 
 ## Настройка Core
 
@@ -18,7 +18,7 @@ Models \(модели, которые используются для клиен
 
 Чтобы ядро запустилось, необходимо создать в нем собственный `Application` \(`App.cs`\):
 
-```
+```text
 public class App : MvvmCross.Core.ViewModels.MvxApplication
 {
     ...
@@ -29,7 +29,7 @@ public class App : MvvmCross.Core.ViewModels.MvxApplication
 
 Сейчас необходимо создать класс `PluginLoader` – это загрузчик плагина, который вызывается MvvmCross в момент инициализации всех плагинов и в котором происходит инициализация `App`:
 
-```
+```text
 public class PluginLoader : IMvxPluginLoader
 {
     public static readonly PluginLoader Instance = new PluginLoader();
@@ -46,7 +46,7 @@ public class PluginLoader : IMvxPluginLoader
         new API.App().Initialize();
 
         new App().Initialize();
-        
+
         var manager = Mvx.Resolve<IMvxPluginManager>();
         manager.EnsurePlatformAdaptionLoaded<PluginLoader>();
 
@@ -65,7 +65,7 @@ public class PluginLoader : IMvxPluginLoader
 
 В UI проектах необходимо создать класс `Plugin` , в котором будут регистрироваться все View, а также сервис для работы с UI-темой модуля:
 
-```
+```text
 public class Plugin : IMvxPlugin
 {
     public void Load()
@@ -79,7 +79,7 @@ public class Plugin : IMvxPlugin
 
 Финальный шаг настройки модуля – добавление в запускаемый UI проект bootstrap-файла, который будет связывать классы `PluginLoader` и `Plugin` , а также регистрировать их в MvvmCross
 
-```
+```text
 public class PluginName_PluginBootstrap 
         : MvxLoaderPluginBootstrapAction<PluginLoader, Plugin>
     {
@@ -91,6 +91,4 @@ public class PluginName_PluginBootstrap
 * [Создание и разработка экранов](razrabotka-ekranov.md)
 * [Навигация между экранами](rabota-s-navigatsiei.md)
 * [Работа с темой](rabota-s-temoi-proekta.md)
-
-
 

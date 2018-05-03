@@ -1,8 +1,8 @@
-# RouterSubscriber
+# routersubscriber
 
 Сейчас необходимо создать обработчик, который будет являться точкой входа для модуля навигации. Этот обработчик называется `RouterSubscriber`
 
-```
+```text
 using System;
 using AppRopio.Base.Core.Models.Bundle;
 using AppRopio.Base.Core.Models.Navigation;
@@ -32,29 +32,29 @@ namespace ProjectName.Core.Services.Implementations
 
 После создания `RouterSubscriber` его необходимо зарегистрировать в соответствующем сервисе. В зависимости от выбранного подхода к разработке классы для регистрации будут немного отличаться. Но в обоих случаях нужно переопределить в `App.cs` метод `Initialize`
 
-#### Разработка ядра
+## Разработка ядра
 
-```
+```text
 public class App : AppRopio.***.Navigation.Core.App
 {
     public override Initialize()
     {
         base.Initialize();
-        
+
         Mvx.CallbackWhenRegistered<IRouterService>((service) => router.Register<Type>(new RouterSubscriber()));
     }
 }
 ```
 
-#### Разработка плагина
+## Разработка плагина
 
-```
+```text
 public class App : MvvmCross.Core.ViewModels.MvxApplication
 {
     public override Initialize()
     {
         base.Initialize();
-        
+
         Mvx.CallbackWhenRegistered<IRouterService>((service) => router.Register<Type>(new RouterSubscriber()));
     }
 }

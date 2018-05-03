@@ -1,4 +1,4 @@
-# Setup
+# setup
 
 ```csharp
 public class Setup : MenuSetup
@@ -9,3 +9,4 @@ public class Setup : MenuSetup
     }
 }
 ```
+

@@ -1,28 +1,32 @@
-# Visual Studio Team Services \(VSTS\). Автоматизация сборки проекта
+# vsts-avtomatizatsiya-sborki-proekta
 
 ## Шаг 1
 
 Зайди в свой VSTS аккаунт и выбери вкладку Build and Release, в ней подменю Builds и выбери раздел Definitions. Теперь перейди в папку Clients – ты сейчас находишься в разделе со всеми описаниями сборок всех клиентов.
 
-![](assets/VSTS_01.png)
+![](../.gitbook/assets/vsts_01.png)
 
 ## Шаг 2
 
 Теперь тебе нужно создать папку, которая будет называться в соответствии с названием твоего проекта \(если создаешь проект в VSTS\) или выбрать из существующих \(если проект уже был создан ранее\). Инструкция по созданию новой папки показана далее на скриншотах
 
-![](assets/VSTS_02.png)![](assets/VSTS_02_1.png)
+![](../.gitbook/assets/vsts_02.png)
+
+![](../.gitbook/assets/vsts_02_1.png)
 
 ## Шаг 3
 
 Теперь, когда папка создана/выбрана нужно добавить описание процесса сборки. Для этого необходимо нажать кнопку "+ New", найти в списке шаблонов шаблон с именем "AppRopio.Clients" и выбрать соответствующую платформу
 
-![](assets/VSTS_03.png)![](assets/VSTS_03_1.png)
+![](../.gitbook/assets/vsts_03.png)
+
+![](../.gitbook/assets/vsts_03_1.png)
 
 ## Шаг 4
 
 Подключить к описанию конкретный репозиторий с клиентскими проектами и настроить на определенную ветку
 
-![](assets/VSTS_031.png)
+![](../.gitbook/assets/vsts_031.png)
 
 ## Шаг 5
 
@@ -36,13 +40,19 @@
 4. Проверить .mobileprovision \(добавляется в VSTS на вкладке Library/Secret Files\)
 5. Проверить и изменить переменные среды
 
-![](assets/VSTS_04_0.png)![](assets/VSTS_04_1.png)![](assets/VSTS_04_2.png)![](assets/VSTS_04_3.png)
+![](../.gitbook/assets/vsts_04_0.png)
+
+![](../.gitbook/assets/vsts_04_1.png)
+
+![](../.gitbook/assets/vsts_04_2.png)
+
+![](../.gitbook/assets/vsts_04_3.png)
 
 ## Шаг 6
 
 Теперь нужно настроить триггер, который будет запускать сборку при коммите в master ветку проекта
 
-![](assets/VSTS_05.png)
+![](../.gitbook/assets/vsts_05.png)
 
 ## Шаг 7
 

@@ -1,4 +1,4 @@
-# Перечень библиотек модулей
+# perechen-bibliotek-modulei
 
 ## Базовые
 
@@ -232,6 +232,4 @@
 | AppRopio.Payments.YandexKassa.API |  |
 | AppRopio.Payments.YandexKassa.Core | Configs/YandexKassa.json |
 | AppRopio.Payments.YandexKassa.iOS |  |
-
-
 

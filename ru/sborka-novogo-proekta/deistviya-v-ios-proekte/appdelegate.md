@@ -1,8 +1,8 @@
-# AppDelegate
+# appdelegate
 
 Пример класса `AppDelegate` для приложения, использующего в качестве основной навигации левое меню.
 
-```
+```text
 [Register("AppDelegate")]
 public class AppDelegate : ARApplicationDelegate
 {
@@ -21,11 +21,11 @@ public class AppDelegate : ARApplicationDelegate
         var viCo = base.ConstructDefaultViCo();
         viCo.View.BackgroundColor = Theme.ColorPalette.Background.ToUIColor();
         return viCo;
-    }	 
+    }     
 }
 ```
 
-Метод `CreateSetup` используется для создания экземпляра класса `Setup` , в котором осуществляется настройка UI . проекта и создается `Application` . Этот метод может быть использован для создания собственного класса `Setup` , если ты используешь подход [разработки ядра](/dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md).
+Метод `CreateSetup` используется для создания экземпляра класса `Setup` , в котором осуществляется настройка UI . проекта и создается `Application` . Этот метод может быть использован для создания собственного класса `Setup` , если ты используешь подход [разработки ядра](https://github.com/appropio/faq/tree/01a74964a039dfb9acb17ee3a5d97021d54f864c/dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md).
 
 Метод `CreatePresenter` используется для получения экзепляра презентера, реализующего в себе логику навигации между экранами. Здесь можно вернуть экземпляр своего презентера, если предоставляемый презентер не устраивает.
 

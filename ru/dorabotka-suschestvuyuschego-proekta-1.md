@@ -1,4 +1,4 @@
-# Доработка существующего проекта
+# dorabotka-suschestvuyuschego-proekta
 
 ## Выбор подхода
 
@@ -15,6 +15,4 @@
 * [Создание своей темы и переопределение существующей](dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
 * [Список необходимых пакетов](sborka-novogo-proekta/spisok-paketov.md)
 * [Подробное описание процесса разработки модуля](https://habrahabr.ru/company/microsoft/blog/316714/)
-
-
 

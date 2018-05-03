@@ -1,36 +1,36 @@
-# Code snippets
+# code-snippets
 
 ## Commands
 
 ### IMvxCommand
 
-**Name**
-`cmvx`
+**Name** `cmvx`
 
 **Template**
-```
+
+```text
 private IMvxCommand _$privateName$;
 public IMvxCommand $PublicName$ => _$privateName$ ?? (_$privateName$ = new MvxCommand(() => { }));
 ```
 
 ### IMvxAsyncCommand
 
-**Name**
-`camvx`
+**Name** `camvx`
 
 **Template**
-```
+
+```text
 private IMvxCommand _$privateName$;
 public IMvxCommand $PublicName$ => _$privateName$ ?? (_$privateName$ = new MvxCommand(() => { }));
 ```
 
 ## Properties
 
-**Name**
-`lmvx`
+**Name** `lmvx`
 
 **Template**
-```
+
+```text
 private $type$ _$name$;
 public $type$ $Name$ 
 {
@@ -41,29 +41,29 @@ public $type$ $Name$
 
 ## BindingSet
 
-**Name**
-`set`
+**Name** `set`
 
 **Template**
-```
+
+```text
 set.Bind($View$).To(vm => vm.$Property$);
 ```
 
-**Name**
-`vset`
+**Name** `vset`
 
 **Template**
-```
+
+```text
 set.Bind($View$).For("Visibility").To(vm => vm.$Property$).WithConversion("Visibility");
 ```
 
 ## ViewModel
 
-**Name**
-`vm`
+**Name** `vm`
 
 **Template**
-```
+
+```text
 #region Fields
 
 #endregion
@@ -75,7 +75,7 @@ set.Bind($View$).For("Visibility").To(vm => vm.$Property$).WithConversion("Visib
 #region Properties
 
 #endregion
-    
+
 #region Services
 
 #endregion
@@ -84,7 +84,7 @@ set.Bind($View$).For("Visibility").To(vm => vm.$Property$).WithConversion("Visib
 
 public $ViewModel$()
 {
-    
+
 }
 
 #endregion
@@ -92,7 +92,7 @@ public $ViewModel$()
 #region Private
 
 #endregion
-    
+
 #region Protected
 
 #region Init
@@ -126,11 +126,4 @@ public override void Prepare(MvvmCross.Core.ViewModels.IMvxBundle parameters)
 
 #endregion
 ```
-
-
-
-
-
-
-
 

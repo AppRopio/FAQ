@@ -1,4 +1,4 @@
-# Application
+# application
 
 ```csharp
 [Application]
@@ -54,3 +54,4 @@ public class MainApplication : Application, Application.IActivityLifecycleCallba
     }
 }
 ```
+

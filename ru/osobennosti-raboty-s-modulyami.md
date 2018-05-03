@@ -1,3 +1,4 @@
-# Особенности работы с модулями
+# osobennosti-raboty-s-modulyami
 
 * [Оплаты](modules/payments.md)
+

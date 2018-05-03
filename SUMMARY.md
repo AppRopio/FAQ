@@ -1,0 +1,46 @@
+# Table of contents
+
+* [AppRopio](README.md)
+* [LANGS](langs.md)
+* ru
+  * sborka-novogo-proekta
+    * [deistviya-v-android-proekte](ru/sborka-novogo-proekta/deistviya-v-android-proekte/README.md)
+      * [splashactivity](ru/sborka-novogo-proekta/deistviya-v-android-proekte/splashactivity.md)
+      * [sozdanie-temi-prilozheniya](ru/sborka-novogo-proekta/deistviya-v-android-proekte/sozdanie-temi-prilozheniya.md)
+      * [androidmanifest](ru/sborka-novogo-proekta/deistviya-v-android-proekte/androidmanifest.md)
+      * [setup](ru/sborka-novogo-proekta/deistviya-v-android-proekte/setup.md)
+      * [linkerpleaseinclude](ru/sborka-novogo-proekta/deistviya-v-android-proekte/linkerpleaseinclude.md)
+      * [application](ru/sborka-novogo-proekta/deistviya-v-android-proekte/application.md)
+    * [deistviya-v-ios-proekte](ru/sborka-novogo-proekta/deistviya-v-ios-proekte/README.md)
+      * [dobavlenie-argumentov-mtouch](ru/sborka-novogo-proekta/deistviya-v-ios-proekte/dobavlenie-argumentov-mtouch.md)
+      * [appdelegate](ru/sborka-novogo-proekta/deistviya-v-ios-proekte/appdelegate.md)
+      * [infoplist](ru/sborka-novogo-proekta/deistviya-v-ios-proekte/infoplist.md)
+      * [linkerpleaseinclude](ru/sborka-novogo-proekta/deistviya-v-ios-proekte/linkerpleaseinclude.md)
+    * [zapros-litsenzii](ru/sborka-novogo-proekta/zapros-litsenzii.md)
+    * [spisok-paketov](ru/sborka-novogo-proekta/spisok-paketov.md)
+  * [vsts-avtomatizatsiya-sborki-proekta](ru/vsts-avtomatizatsiya-sborki-proekta.md)
+  * [reliznii-chek-list](ru/reliznii-chek-list.md)
+  * modules
+    * [payments](ru/modules/payments.md)
+    * [payments-cloudpayments-basketconfig](ru/modules/payments-cloudpayments-basketconfig.md)
+    * [payments-cloudpayments-config](ru/modules/payments-cloudpayments-config.md)
+    * [payments-applepay-config](ru/modules/payments-applepay-config.md)
+  * dorabotka-suschestvuyuschego-proekta
+    * [razrabotka-ekranov](ru/dorabotka-suschestvuyuschego-proekta/razrabotka-ekranov.md)
+    * [routersubscriber](ru/dorabotka-suschestvuyuschego-proekta/routersubscriber.md)
+    * [rabota-s-navigatsiei](ru/dorabotka-suschestvuyuschego-proekta/rabota-s-navigatsiei.md)
+    * [razrabotka-plagina](ru/dorabotka-suschestvuyuschego-proekta/razrabotka-plagina.md)
+    * [rabota-s-temoi-proekta](ru/dorabotka-suschestvuyuschego-proekta/rabota-s-temoi-proekta.md)
+    * [razrabotka-yadra](ru/dorabotka-suschestvuyuschego-proekta/razrabotka-yadra.md)
+  * [SUMMARY](ru/summary.md)
+  * [discussion-template](ru/discussion-template.md)
+  * [sborka-novogo-proekta](ru/sborka-novogo-proekta-1.md)
+  * [code-snippets](ru/code-snippets.md)
+  * [osobennosti-raboty-s-modulyami](ru/osobennosti-raboty-s-modulyami.md)
+  * [dorabotka-suschestvuyuschego-proekta](ru/dorabotka-suschestvuyuschego-proekta-1.md)
+  * [perechen-bibliotek-modulei](ru/perechen-bibliotek-modulei.md)
+* en
+  * [SUMMARY](en/summary.md)
+* [README](ru-1.md)
+* [README](en-1.md)
+

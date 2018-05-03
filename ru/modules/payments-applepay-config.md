@@ -1,9 +1,10 @@
-# ApplePay.json
+# payments-applepay-config
 
-```json
+```javascript
 {
   "merchantId": "{merchantId}",
   "countryCode": "RU",
   "supportedNetworks": ["Visa", "MasterCard"]
 }
 ```
+

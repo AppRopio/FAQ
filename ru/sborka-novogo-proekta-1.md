@@ -1,4 +1,4 @@
-# Сборка нового проекта на базе AppRopio
+# sborka-novogo-proekta
 
 ## Developer Console
 
@@ -11,25 +11,21 @@
 ### Android
 
 * Создать package name в соответствии с маской `com.notissimus.{имя_приложения}.{название_платформы}`
-* Создать .keystore (средствами IDE) и запросить Push Sender ID
+* Создать .keystore \(средствами IDE\) и запросить Push Sender ID
 * Минимальная версия Android – 5.0
 
 ## Репозиторий
 
 * Склонировать AppRopio.Clients
 * Создать новую ветку в соответствии с маской `{имя_проекта}/master` – в нее будут добавляться обновления платформы AppRopio
-
-* _UPD: подготовить репозиторий, изменив его структуру с добавив к master ветке две релизные ветки (release-ios и release-android) – это необходимо для корректной работы сервера. Все последующие изменения проводить в ветке release-***_
-
+* _UPD: подготовить репозиторий, изменив его структуру с добавив к master ветке две релизные ветки \(release-ios и release-android\) – это необходимо для корректной работы сервера. Все последующие изменения проводить в ветке release-\*_
 * Создать решение с запускаемым проектом по пути `AppRopio.Clients/src/{имя_проекта}`
   * Маска имени запускаемого проекта `{имя_проекта}.{название_платформы}`
   * Маска имени решения `{имя_проекта}`
 
 ## Решение
 
-* [Описание действий в iOS-проекте](sborka-novogo-proekta/deistviya-v-ios-proekte.md)
-* [Описание действий в Android проекте](sborka-novogo-proekta/deistviya-v-android-proekte.md)
+* [Описание действий в iOS-проекте](sborka-novogo-proekta/deistviya-v-ios-proekte/)
+* [Описание действий в Android проекте](sborka-novogo-proekta/deistviya-v-android-proekte/)
 * Проверить список конфигураций сборок проектов, чтобы они не пересекались между проектами. Для iOS проекта должны быть активны конфигурации `[Debug/Release]|[iPhoneSimulator/iPhone]`, для Android проекта – `[Debug/Release]/[Any CPU]`. При необходимости создать недостающие конфигурации для решения и проверить Configuration Mappings
-
-
 

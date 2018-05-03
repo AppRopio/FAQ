@@ -1,8 +1,8 @@
-# Описание ключей для Info.plist
+# infoplist
 
 ## Основные значение
 
-```
+```text
 <key>UIViewControllerBasedStatusBarAppearance</key>
 <false/>
 <key>UIBackgroundModes</key>
@@ -32,7 +32,7 @@
 
 ## Подключение шрифтов
 
-```
+```text
 <key>UIAppFonts</key>
 <array>
    <string>OPENSANS-BOLD.TTF</string>
@@ -44,7 +44,7 @@
 
 ## Подключение OAuth через Вконтакте и Facebook
 
-```
+```text
 <key>CFBundleURLTypes</key>
 <array>
    <dict>
@@ -77,6 +77,4 @@
 <key>VkAppID</key>
 <string>{VK_ID}</string>
 ```
-
-
 

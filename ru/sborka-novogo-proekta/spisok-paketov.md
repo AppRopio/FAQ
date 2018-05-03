@@ -1,4 +1,4 @@
-# Перечень пакетов для настройки проекта
+# spisok-paketov
 
 ## iOS
 
@@ -50,8 +50,4 @@
 * `Xamarin.GooglePlayServices.Maps` version="60.1142.0"
 * `Xamarin.Android.Support.Constraint.Layout` version="1.0.2.2"
 * `Xamarin.Android.Support.v7.CardView` version="26.1.0.1"
-
-
-
-
 

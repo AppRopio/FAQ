@@ -1,4 +1,4 @@
-# SplashActivity
+# splashactivity
 
 ```csharp
 [Activity(MainLauncher = true,
@@ -9,7 +9,8 @@ public class SplashActivity : CommonSplashScreenActivity
     public SplashActivity()
         : base (Resource.Layout.Splash)
     {
-        
+
     }
 }
 ```
+

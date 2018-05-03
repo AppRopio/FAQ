@@ -1,6 +1,6 @@
-# Basket.json – CloudPayments
+# payments-cloudpayments-basketconfig
 
-```json
+```javascript
 {
     ...
     "inAppPayments": {
@@ -12,3 +12,4 @@
     ...
 }
 ```
+

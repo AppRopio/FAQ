@@ -1,9 +1,10 @@
-# CloudPayments.json 
+# payments-cloudpayments-config
 
-```json
+```javascript
 {
   "StoreId": "",
   "ApiSecret": "",
   "ThreeDSRedirectUrl": ""
 }
 ```
+

@@ -1,4 +1,4 @@
-# LinkerPleaseInclude
+# linkerpleaseinclude
 
 ```csharp
 //This class is never actually executed, but when Xamarin linking is enabled it does how to ensure types and properties
@@ -175,6 +175,4 @@ public class LinkerPleaseInclude
     }
 }
 ```
-
-
 
